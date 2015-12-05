@@ -6709,7 +6709,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="LED2" gate="G$1" x="96.52" y="33.02" rot="R90"/>
 <instance part="GND3" gate="1" x="12.7" y="55.88"/>
 <instance part="GND4" gate="1" x="86.36" y="55.88"/>
-<instance part="ADJ" gate="G$1" x="25.4" y="66.04"/>
+<instance part="ADJ" gate="G$1" x="25.4" y="66.04" rot="MR180"/>
 <instance part="R6" gate="G$1" x="104.14" y="25.4" rot="R90"/>
 <instance part="GND5" gate="1" x="104.14" y="15.24"/>
 <instance part="GND6" gate="1" x="25.4" y="55.88"/>
@@ -6772,8 +6772,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="104.14" y1="17.78" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADJ" gate="G$1" pin="A"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="ADJ" gate="G$1" pin="E"/>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6799,7 +6799,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="CV_IN" gate="G$1" pin="TIP"/>
 <wire x1="12.7" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="ADJ" gate="G$1" pin="E"/>
+<pinref part="ADJ" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <junction x="25.4" y="73.66"/>
